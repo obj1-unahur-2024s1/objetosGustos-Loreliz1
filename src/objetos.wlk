@@ -1,4 +1,5 @@
 import personas.*
+import bolichito.*
 
 // COLORES
  /*rojo, verde, celeste y pardo os dos primeros son fuertes, los otros no */
@@ -54,6 +55,8 @@ import personas.*
  	method color { return color}
  	method material { return cobre}
  	method peso { return peso}
+ 	method setPeso(pesoNuevo){ peso = pesoNuevo}
+ 	method setColor(nuevoColor){ peso = nuevoColor}
  }
  
 //arito celeste de cobre, que pesa 180 gramos.
@@ -75,6 +78,6 @@ object cajita{
 	method color() = rojo
 	method material() = cobre
 	method peso() {return 400 + objetoInerior}
-	method setbbjetoInterior(objeto) { objetoInterior = objeto}
+	method setObjetoInterior(objeto) { objetoInterior = objeto}
 	
 }
